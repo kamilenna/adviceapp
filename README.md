@@ -33,7 +33,7 @@
 
 ### O que aprendi
 
-Com esse projeto pude praticar posicionamento dos objetos, criação de projetos ReactJs + ViteJs, criação de componentes e o consumo de Apis utilizando o fetch.
+Com esse projeto pude praticar posicionamento dos objetos, criação de projetos ReactJs + ViteJs, criação de componentes e o consumo de APIs utilizando o fetch.
 
 ## Autor(a)
 
