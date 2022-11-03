@@ -1,0 +1,129 @@
+:root {
+  --font: 'Manrope', sans-serif;
+  --light-cyan: #cee3e9;
+  --neon-green: #52ffa8;
+  --dark-neon-green: #15e97f;
+  --grayish-blue: #4e5d73;
+  --dark-grayish-blue: #323a49;
+  --dark-blue: #1f2632;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+html {
+  font-size: 62.50%;
+}
+
+.App {
+  background-color: var(--dark-blue);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.card-advice {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: var(--dark-grayish-blue);
+  padding: 4rem 3rem;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card-advice h6 {
+  font-size: 1.3rem;
+  color: var(--neon-green);
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.card-advice p {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--light-cyan);
+  line-height: 3rem;
+}
+
+.pattern-divider {
+  color: var(--light-cyan);
+  height: 20px;
+  max-width: 450px;
+  margin: 3rem auto 2rem auto;
+  display: block;
+}
+
+.pattern-divider img {
+  width: 100%;
+}
+
+.pattern-divider .desktop {
+  display: none;
+}
+
+button {
+  background-color: var(--neon-green);
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  /*bottom: 150px;*/
+  transform: translateY(-50%);
+}
+
+button:hover {
+  box-shadow: 0px 0px 45px 2px rgba(82,255,168,0.86);
+}
+
+button img {
+  margin: auto;
+  display: block;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  padding: 1.6rem;
+  color: var(--light-cyan);
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--neon-green);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: var(--dark-neon-green);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .card-advice {
+    /*max-width: 500px;*/
+    padding: 6rem 4rem;
+  }
+  .card-advice p {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  .pattern-divider .mobile {
+    display: none;
+  }
+  .pattern-divider .desktop {
+    display: block;
+  }
+}
