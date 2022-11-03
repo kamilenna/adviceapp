@@ -1,6 +1,8 @@
 # Frontend Mentor - Advice generator app
 
-Desafio Advice Generetor app do [Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) concluído.
+- Desafio Advice Generetor app do [Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) concluído.
+- Criar um projeto capaz de gerar aleatoriamente conselhos.
+
 
 ## Tabela de conteúdos
   - [Overview](#overview)
