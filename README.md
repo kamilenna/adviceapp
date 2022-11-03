@@ -17,7 +17,7 @@
 ![Imagem do projeto](./src/images/screenshot.png)
 
 ### Links
-- Live Site URL: [Advice generetor App](https://your-live-site-url.com)
+- Live Site URL: [Advice generetor App](https://advicesgeneretor.netlify.app/)
 
 ## Meu processo
 
