@@ -2,7 +2,7 @@
 
 Desafio Advice Generetor app do [Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) concluído.
 
-## Table of contents
+## Tabela de conteúdos
   - [Overview](#overview)
     - [Links](#links)
   - [Meu processo](#meu-processo)
