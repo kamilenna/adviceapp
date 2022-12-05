@@ -16,7 +16,7 @@ function App() {
           advice: data.slip.advice
         })
       })
-    /**/
+      .catch(error => console.log("Infelizmente ocorreu um erro na aplicação: " + error))
   }
   return (
     <div className="App">
